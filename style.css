@@ -1,0 +1,86 @@
+body{
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Merriweather', serif;
+    background-color: rgba(255, 248, 220, 0.575);
+}
+nav{
+    padding: 2em;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: orangered;
+    border-radius: 2em;
+    color: papayawhip;
+}
+.first-section{
+    display: flex;
+    width: 80%;
+    margin-left: 10em;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.section-title{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+.container{
+    background-color: white;
+    width: 1000px;
+    padding: 30px;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-gap: 30px;
+}
+.second-section{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.ratings{
+    display: flex;
+    align-items: center;
+}
+.rate{
+    color: gray;
+    margin-left: 5px;
+}
+.description{
+    color: grey;
+    font-size: large;
+    font-weight: bolder;
+}
+.fa-star{
+    color: orange;
+    font-size: 8px;
+}
+.see-more{
+    text-decoration: none;
+    float: right;
+    color: brown;
+}
+footer{
+    background-color: navy;
+    text-align: center;
+    
+}
+.span{
+    color: white;
+}
