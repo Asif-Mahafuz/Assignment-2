@@ -33,6 +33,10 @@ nav a{
     width: 80%;
     margin-left: 10em;
 }
+.Image:hover{
+    width: 100px;
+    transform: rotate(60deg);
+}
 main{
     display: flex;
     justify-content: center;
@@ -80,6 +84,14 @@ main{
     text-decoration: none;
     float: right;
     color: brown;
+}
+.sign-up{
+    text-align: center;
+    font-size: 1em;
+    margin: 20px;
+}
+.email{
+    color: red;
 }
 footer{
     background-color: navy;
